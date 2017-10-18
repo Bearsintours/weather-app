@@ -1,0 +1,30 @@
+body{
+  height:600px;
+  font-size:3em;
+  text-align:center;
+  padding-top:20px;
+  background-repeat:no repeat;
+  background-size:cover;
+  background-image:url("http://www.discoverlosangeles.com/sites/default/files/styles/rotator_image/public/media/Activities/Events-Calendar-Rotator-1020.jpg?itok=qYcAsrhA");
+}
+
+#title{
+  margin-top:30px;
+  color:white;
+  font-weight:bold;
+  font-style:italic;
+  font-size:2em;
+}
+
+#spinner{
+  margin-top:50px;
+}
+
+#icon{
+  font-size: 3em;
+  color:white;
+}
+
+#switch{
+  display:none;
+}
