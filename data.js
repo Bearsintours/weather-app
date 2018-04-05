@@ -3,7 +3,7 @@ $(document).ready(function () {
   //Remove intro 
   const init = function () {
     $("#title").fadeOut(1500);
-    $("#app").hide();
+    $("#appl").hide();
   } // End init()
 
 
