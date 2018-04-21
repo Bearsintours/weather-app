@@ -65,11 +65,15 @@ $(document).ready(function () {
 
       // Change background images according to weather conditions      
       if (weather == "Clear") {
-        $("body").css('background-image', 'url("http://www.discoverlosangeles.com/sites/default/files/styles/rotator_image/public/media/Activities/Events-Calendar-Rotator-1020.jpg?itok=qYcAsrhA")');
+        // $("body").css('background-image', 'url("http://www.discoverlosangeles.com/sites/default/files/styles/rotator_image/public/media/Activities/Events-Calendar-Rotator-1020.jpg?itok=qYcAsrhA")');
+        $("body").css('background-image', 'url("https://images.unsplash.com/photo-1502200893034-b7bca90610ef?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c081e2fd522f3c6e53fdf4b47aeb0943&auto=format&fit=crop&w=1353&q=80")');
       } else if (weather == "Clouds" || weather == "Mist") {
-        $("body").css('background-image', 'url("http://www.welikela.com/wp-content/uploads/2015/07/cloudy-los-angeles-skyline.jpg")');
+        // $("body").css('background-image', 'url("http://www.welikela.com/wp-content/uploads/2015/07/cloudy-los-angeles-skyline.jpg")');
+        $("body").css('background-image', 'url("https://images.unsplash.com/photo-1506409192306-b368ff0c21eb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9b2b034a37f4325c424345698dc3c117&auto=format&fit=crop&w=1050&q=80")');
+
       } else if (weather == "Rain") {
-        $("body").css('background-image', 'url("http://a.scpr.org/i/50e403181ec7e55433dd8c32699ba69a/78937-full.jpg")');
+        // $("body").css('background-image', 'url("http://a.scpr.org/i/50e403181ec7e55433dd8c32699ba69a/78937-full.jpg")');
+        $("body").css('background-image', 'url("https://images.unsplash.com/photo-1433863448220-78aaa064ff47?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=723ac0c6a3eb82eb16190fea1ad22755&auto=format&fit=crop&w=1189&q=80")');
         $("#icon").css("color", "black");
         $("#data").css("font-weight", "bold");
       };

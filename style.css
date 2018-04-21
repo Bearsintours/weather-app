@@ -1,21 +1,21 @@
-body{
+body {
   height: 600px;
   font-size: 3em;
   text-align: center;
   padding-top: 10%;
-  background :url("http://www.discoverlosangeles.com/sites/default/files/styles/rotator_image/public/media/Activities/Events-Calendar-Rotator-1020.jpg?itok=qYcAsrhA") no-repeat center center fixed;
+  background: url("https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bb8e31138b12d26a2046b5be38242be4&auto=format&fit=crop&w=1052&q=80") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-#title{
-  margin-top:30px;
-  color:white;
-  font-weight:bold;
-  font-style:italic;
-  font-size:2em;
+#title {
+  margin-top: 30px;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 2em;
 }
 
 #app {
@@ -28,15 +28,15 @@ body{
   padding: 3%;
 }
 
-#spinner{
-  margin-top:50px;
+#spinner {
+  margin-top: 50px;
 }
 
-#icon{
+#icon {
   font-size: 3em;
-  color:black;
+  color: black;
 }
 
-#switch{
-  display:none;
+#switch {
+  display: none;
 }
